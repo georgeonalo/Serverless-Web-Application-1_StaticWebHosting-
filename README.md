@@ -112,11 +112,11 @@ To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
   
    * [new branch]      master -> master
 
-####### Deploy the site with the AWS Amplify Console 
+##### Deploy the site with the AWS Amplify Console 
   
 Next you'll use the AWS Amplify Console to deploy the website you've just commited to git. The Amplify Console takes care of the work of setting up a place to store your static web application code and provides a number of helpful capabilities to simplify both the lifecycle of that application as well as enable best practices.
   
-########## ✅ Step-by-step directions
+####### ✅ Step-by-step directions
   
 1. Launch the Amplify Console console page
 
