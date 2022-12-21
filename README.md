@@ -129,4 +129,76 @@ If you used GitHub, you'll need to authorize AWS Amplify to your GitHub account
   
 ![image](https://user-images.githubusercontent.com/115881685/208927052-8f6b5445-7e27-4654-920b-6cc74e1d44a7.png)
 
+5. On the "Configure build settings" page leave all the defaults and select Next
+
+6. On the "Review" page select Save and deploy 
+  
+   The process takes a couple of minutes for Amplify Console to create the neccesary resources and to deploy your code.
+  
+  ![image](https://user-images.githubusercontent.com/115881685/208933805-8d6224e3-ba81-42a1-829b-26168290568e.png)
+
+ Once completed, click on the site image to launch your Wild Rydes site.
+  
+  ![image](https://user-images.githubusercontent.com/115881685/208934024-8276632c-d267-46e5-906e-2a33c84f12ac.png)
+
+ If you click on the link for Master you'll see various pieces of information about your website deployment, including sample renderings on various platforms:
+  
+  ![image](https://user-images.githubusercontent.com/115881685/208934225-63b252a1-9b99-44ef-8957-29da3d8be3c9.png)
+
+ ##### Modify the website
+  
+The AWS Amplify Console will rebuild and redeploy the app when it detects changes to the connected repository. Make a change to the main page to test out this process.
+  
+##### ✅ Step-by-step directions
+  
+ 1. From your Cloud9 environment open the index.html file in the root directory of the repository.
+
+ 2. Modify the title line:
+  
+      <title>Wild Rydes</title>
+  
+   So that it says:
+  
+      <title>Wild Rydes - Rydes of the Future!</title>
+  
+  Save the file
+  
+      $ git add index.html 
+  
+$ git commit -m "updated title"
+  
+[master dfec2e5] updated title
+  
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+  
+
+$ git push
+  
+Counting objects: 3, done.
+  
+Compressing objects: 100% (3/3), done.
+  
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+  
+Total 3 (delta 2), reused 0 (delta 0)
+remote: processing 
+  
+To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+   2e9f540..dfec2e5  master -> master
+  
+Amplify Console will begin to build the site again soon after it notices the update to the repository. It will happen pretty quickly! Head back to the Amplify Console console page to watch the process.
+  
+4. Once completed, re-open the Wild Rydes site and notice the title change.
+  
+  ![image](https://user-images.githubusercontent.com/115881685/208935939-8f0dec4d-e23a-4f28-90c6-4680a90c66d6.png)
+  
+🔧 In this module, you've created static website which will be the base for our Wild Rydes business.
+  
+ ##### Next
+  
+  ✅ Proceed to the next module, User Management: ([georgeonalo
+/
+Serverless-Web-Application-2_UserManagement-]), wherein you'll configure Amazon Cognito User Pools to manage the users for our application.
+
+  
   
