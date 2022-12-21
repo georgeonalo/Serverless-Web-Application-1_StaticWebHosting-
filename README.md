@@ -196,7 +196,7 @@ Amplify Console will begin to build the site again soon after it notices the upd
   
  ##### Next
   
-  ✅ Proceed to the next module, User Management: ([georgeonalo
+  ✅ Proceed to the next module, ([georgeonalo
 /
 Serverless-Web-Application-2_UserManagement-]), wherein you'll configure Amazon Cognito User Pools to manage the users for our application.
 
