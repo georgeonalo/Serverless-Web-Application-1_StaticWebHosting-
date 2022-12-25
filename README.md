@@ -10,7 +10,7 @@ The architecture for this module is very straightforward. All of your static web
 
 ### Implementation Instructions
 
-❗ Ensure you've completed the setup guide: ([https://github.com/georgeonalo/Serverless-Web-Application-0_Setup-]) before beginning the workshop.
+❗ Ensure you've completed the [setup guide](https://github.com/georgeonalo/Serverless-Web-Application-0_Setup-) before beginning the workshop.
 
 Each of the following sections provides an implementation overview and detailed, step-by-step instructions. The overview should provide enough context for you to complete the implementation if you're already familiar with the AWS Management Console or you want to explore the services yourself without following a walkthrough.
 
@@ -196,7 +196,7 @@ Amplify Console will begin to build the site again soon after it notices the upd
   
  ##### Next
   
-  ✅ Proceed to the next module, ([[User Management](https://github.com/georgeonalo/Serverless-Web-Application-2_UserManagement-)]),  wherein you'll configure Amazon Cognito User Pools to manage the users for our application.
+  ✅ Proceed to the next module, [User Management](https://github.com/georgeonalo/Serverless-Web-Application-2_UserManagement-),  wherein you'll configure Amazon Cognito User Pools to manage the users for our application.
 
   
   
