@@ -91,35 +91,20 @@ aws s3 cp s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ 
 
 3. Commit the files to your git service (you might need to enter an email and user name for the commit):
 
+```
 $ git add .
-
-$ git config --global user.email "<EMAIL ADDRESS>"
-  
-$ git config --global user.name "<USER NAME>"
-  
-$ git commit -m "initial checkin of website code"
-  
+$ git config --global user.email "<EMAIL ADDRESS>"  
+$ git config --global user.name "<USER NAME>" 
+$ git commit -m "initial checkin of website code"  
 $ git push
-
-```
 Username for 'https://git-codecommit.us-east-1.amazonaws.com': wildrydes-codecommit-at-xxxxxxxxx
-```
-```
 Password for 'https://wildrydes-codecommit-at-xxxxxxxxx@git-codecommit.us-east-1.amazonaws.com': 
+Counting objects: 95, done.  
+Compressing objects: 100% (94/94), done.  
+Writing objects: 100% (95/95), 9.44 MiB | 14.87 MiB/s, done.  
+Total 95 (delta 2), reused 0 (delta 0) 
+To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site  [new branch]      master -> master
 ```
-
-Counting objects: 95, done.
-  
-Compressing objects: 100% (94/94), done.
-  
-Writing objects: 100% (95/95), 9.44 MiB | 14.87 MiB/s, done.
-  
-Total 95 (delta 2), reused 0 (delta 0)
-  
-```  
-To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
-```  
-   * [new branch]      master -> master
 
 ## Deploy the site with the AWS Amplify Console 
   
@@ -172,30 +157,21 @@ The AWS Amplify Console will rebuild and redeploy the app when it detects change
   
   Save the file
   
-      $ git add index.html 
-  
-$ git commit -m "updated title"
-  
-[master dfec2e5] updated title
-  
- 1 file changed, 1 insertion(+), 1 deletion(-)
-  
-
-$ git push
-  
-Counting objects: 3, done.
-  
-Compressing objects: 100% (3/3), done.
-  
-Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
-  
-Total 3 (delta 2), reused 0 (delta 0)
-remote: processing 
 ```  
+$ git add index.html 
+$ git commit -m "updated title"  
+[master dfec2e5] updated title 
+1 file changed, 1 insertion(+), 1 deletion(-)
+$ git push 
+Counting objects: 3, done.  
+Compressing objects: 100% (3/3), done.  
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.  
+Total 3 (delta 2), reused 0 (delta 0)
+remote: processing   
 To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
-``` 
-   2e9f540..dfec2e5  master -> master
-  
+2e9f540..dfec2e5  master -> master
+```
+
 Amplify Console will begin to build the site again soon after it notices the update to the repository. It will happen pretty quickly! Head back to the Amplify Console console page to watch the process.
   
 4. Once completed, re-open the Wild Rydes site and notice the title change.
