@@ -193,7 +193,8 @@ Total 3 (delta 2), reused 0 (delta 0)
 remote: processing 
 ```  
 To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
-```   2e9f540..dfec2e5  master -> master
+``` 
+   2e9f540..dfec2e5  master -> master
   
 Amplify Console will begin to build the site again soon after it notices the update to the repository. It will happen pretty quickly! Head back to the Amplify Console console page to watch the process.
   
